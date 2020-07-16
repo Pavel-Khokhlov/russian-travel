@@ -2,7 +2,7 @@
 
 .photo-grid {
   width: 100%;
-  margin: 0 auto 92px;
+  margin: 0 auto 100px;
   padding: 0 48px;
   display: grid;
   grid-template-columns: repeat(4, calc((100% - 48px) / 4));
