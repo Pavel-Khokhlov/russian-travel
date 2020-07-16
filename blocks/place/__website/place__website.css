@@ -1,0 +1,17 @@
+@import url(__url/website__url-heading.css);
+@import url(__link/website__link.css);
+
+.place__website{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 420px){
+  .place__website{
+    display: none;
+  }
+}

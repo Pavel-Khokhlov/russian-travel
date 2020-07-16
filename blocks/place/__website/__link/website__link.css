@@ -1,0 +1,17 @@
+.website__link{
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 22px;
+  color: #fff;
+  transition: 0.8s;
+}
+
+.website__link:hover{
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 768px) {
+  .website__link{
+    margin-bottom: 2px;
+  }
+}

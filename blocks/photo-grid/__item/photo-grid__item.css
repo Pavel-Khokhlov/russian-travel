@@ -1,0 +1,6 @@
+.photo-grid__item {
+  box-sizing: border-box;
+  max-width: 352px;
+  width: 100%;
+  object-fit: contain;
+}

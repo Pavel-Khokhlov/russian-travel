@@ -1,0 +1,31 @@
+.intro__text {
+  font-family: "Inter-Regular";
+  font-style: normal;
+  font-weight: normal;
+  margin: 0 0 38px;
+  max-width: 690px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .intro__text {
+    margin: 0 0 32px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intro__text {
+    max-width: 100%;
+    padding: 0 24px;
+    margin: 0 0 33px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .intro__text {
+    max-width: 100%;
+    padding: 0 16px;
+    margin: 0 0 32px;
+  }
+}

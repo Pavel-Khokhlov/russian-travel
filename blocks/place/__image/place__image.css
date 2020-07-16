@@ -1,0 +1,10 @@
+.place__image{
+  max-width: 460px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 320px){
+  .place__image{
+    margin: 0 0 30px;
+  }
+}

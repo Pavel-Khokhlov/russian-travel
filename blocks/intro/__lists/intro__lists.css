@@ -1,0 +1,6 @@
+@import url(__lists-item/intro__lists-item.css);
+
+.intro__lists{
+  list-style: none;
+  padding: 0;
+}

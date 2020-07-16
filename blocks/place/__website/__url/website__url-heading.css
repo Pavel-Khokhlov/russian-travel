@@ -1,0 +1,16 @@
+.website__url-heading {
+  font-family: "inter-Regular";
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.7em;
+  letter-spacing: 0.2em;
+  color: #aaa;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+  .website__url-heading {
+    margin-bottom: 7px;
+  }
+}
