@@ -10,6 +10,12 @@
   opacity: 0.8;
 }
 
+@media only screen and (max-width: 1024px) {
+  .website__link{
+    margin-bottom: 5px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .website__link{
     margin-bottom: 2px;

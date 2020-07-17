@@ -1,5 +1,5 @@
 .intro__text {
-  font-family: "Inter-Regular";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
   margin: 0 0 33px;
@@ -10,7 +10,7 @@
 
 @media only screen and (max-width: 1024px) {
   .intro__text {
-    margin: 0 0 32px;
+    margin: 0 0 35px;
   }
 }
 

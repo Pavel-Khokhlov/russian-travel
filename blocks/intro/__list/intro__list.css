@@ -1,7 +1,8 @@
-@import url(_font_bold/intro__list_font_bold.css);
-@import url(_font_regular/intro__list_font_regular.css);
+@import url(_font/intro__list_font_bold.css);
+@import url(_font/intro__list_font_regular.css);
 
 .intro__list{
+  font-family: 'Inter';
   font-style: normal;
   max-width: 690px;
   font-size: 12px;

@@ -1,7 +1,7 @@
-.header__lang-link {
+.header__link {
   margin: 0;
   color: #fff;
-  font-family: 'inter-Regular';
+  font-family: 'Inter';
   font-weight: normal;
   font-style: normal;
   font-size: 24px;
@@ -10,12 +10,12 @@
   margin-right: 18px;
 }
 
-.header__lang-link:last-child{
+.header__link:last-child{
 margin: 0;
 }
 
 @media only screen and (max-width: 700px){
-  .header__lang-link {
+  .header__link {
     font-size: 18px;
   }
 }

@@ -18,7 +18,8 @@
   .place{
     padding: 0 48px;
     grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
-    grid-gap: 45px 32px;
+    grid-gap: 43px 32px;
+    margin-bottom: 84px;
   }
 }
 
