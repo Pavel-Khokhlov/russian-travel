@@ -16,7 +16,7 @@
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
   .cover__subtitle {
     max-width: 288px;
     font-size: 14px;
@@ -24,7 +24,8 @@
   }
 }
 
-@media only screen and (min-width: 400px) {
+/* знаю что нельзя использовать <br> но сделал так, чтоб совпало с макетом на маленьком разрешении */
+@media only screen and (min-width: 420px) {
   .cover__subtitle br {
     display: none;
   }

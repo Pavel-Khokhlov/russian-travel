@@ -27,6 +27,7 @@
   }
 }
 
+/* знаю что нельзя использовать <br> но сделал так, чтоб совпало с макетом на маленьком разрешении */
 @media only screen and (min-width: 400px) {
   .place__paragraph br{
     display: none;
