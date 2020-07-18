@@ -3,9 +3,9 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
-  max-width: 560px;
+  max-width: 540px;
   text-align: center;
-  margin: 0 0 32px;
+  margin: 0 auto 32px;
 }
 
 @media only screen and (max-width: 768px){
@@ -19,6 +19,7 @@
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
+    max-width: 250px;
     margin: 0 0 16px;
   }
 }
