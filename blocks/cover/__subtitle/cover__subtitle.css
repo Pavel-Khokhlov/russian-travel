@@ -3,7 +3,7 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 22px;
-  max-width: 360px;
+  max-width: 370px;
   text-align: center;
   margin: 0 auto;
 }
@@ -18,15 +18,8 @@
 
 @media only screen and (max-width: 420px) {
   .cover__subtitle {
-    max-width: 288px;
+    max-width: 277px;
     font-size: 14px;
     line-height: 16px;
-  }
-}
-
-/* знаю что нельзя использовать <br> но сделал так, чтоб совпало с макетом на маленьком разрешении */
-@media only screen and (min-width: 420px) {
-  .cover__subtitle br {
-    display: none;
   }
 }

@@ -10,14 +10,20 @@
   position: relative;
 }
 
+@media only screen and (max-width: 1024px){
+  .cover{
+    margin: 0 auto 88px;
+  }
+}
+
 @media only screen and (max-width: 768px){
   .cover{
-    margin: 0 auto 90px;
+    margin: 0 auto 81px;
   }
 }
 
 @media only screen and (max-width: 320px){
   .cover{
-    margin: 0 auto 67px;
+    margin: 0 auto 63px;
   }
 }

@@ -1,9 +1,11 @@
 .website__link{
+  font-family: 'Inter';
   font-size: 18px;
   font-weight: normal;
   line-height: 22px;
   color: #fff;
   transition: 0.8s;
+  margin-bottom: 6px;
 }
 
 .website__link:hover{

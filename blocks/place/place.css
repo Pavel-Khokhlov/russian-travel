@@ -6,7 +6,7 @@
 .place{
   display: grid;
   grid-template-columns: 460px 484px;
-  grid-gap: 44px 40px;
+  grid-gap: 41px 40px;
   margin-bottom: 87px;
 }
 
@@ -28,7 +28,11 @@
     padding: 0 24px;
     grid-template-columns: minmax(30px, 340px) minmax(30px, 356px);
     grid-gap: 44px 28px;
-    margin-bottom: 70px;
+    margin-bottom: 71px;
+  }
+  /* уменьшаем ширину первого заголовка на 768 px, подгоняем под макет дизайнера */
+  .place:first-child .place__title{
+    max-width: 250px;
   }
 }
 
@@ -39,5 +43,8 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 52px;
+  }
+  .place:first-child .place__title{
+    max-width: 320px;
   }
 }

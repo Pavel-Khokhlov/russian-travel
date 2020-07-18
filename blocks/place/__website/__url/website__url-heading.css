@@ -5,12 +5,7 @@
   line-height: 1.7em;
   letter-spacing: 0.2em;
   color: #aaa;
-  margin: 0 0 12px;
-}
-@media only screen and (max-width: 1024px) {
-  .website__url-heading {
-    margin-bottom: 6px;
-  }
+  margin: 0 0 6px;
 }
 
 @media only screen and (max-width: 768px) {
