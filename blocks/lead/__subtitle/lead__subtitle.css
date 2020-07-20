@@ -1,6 +1,4 @@
 .lead__subtitle{
-  font-family: 'Inter';
-  font-style: normal;
   font-size: 30px;
   font-weight: normal;
   line-height: 36px;
@@ -17,14 +15,14 @@
 
 @media only screen and (max-width: 768px){
   .lead__subtitle {
+    font-size: 5vw;
+    line-height: 1.25;
     margin: 0 auto 55px;
   }
 }
 
 @media only screen and (max-width: 320px){
   .lead__subtitle {
-    font-size: 16px;
-    line-height: 20px;
     margin: 0 auto 40px;
   }
 }

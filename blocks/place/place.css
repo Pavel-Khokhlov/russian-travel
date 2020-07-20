@@ -1,50 +1,53 @@
 @import url(__title/place__title.css);
 @import url(__image/place__image.css);
 @import url(__website/place__website.css);
+@import url(__link/place__link.css);
+@import url(__url-heading/place__url-heading.css);
 @import url(__paragraph/place__paragraph.css);
 
-.place{
+.place {
   display: grid;
   grid-template-columns: 460px 484px;
   grid-gap: 41px 40px;
   margin-bottom: 87px;
 }
 
-.place:last-child{
+.place:last-child {
   margin-bottom: 0;
 }
 
-@media only screen and (max-width: 1024px){
-  .place{
+@media only screen and (max-width: 1024px) {
+  .place {
     padding: 0 48px;
-    grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
+    grid-template-columns: minmax(310px, 440px) minmax(330px, 456px);
     grid-gap: 43px 32px;
     margin-bottom: 84px;
   }
 }
 
-@media only screen and (max-width: 768px){
-  .place{
+@media only screen and (max-width: 768px) {
+  .place {
     padding: 0 24px;
-    grid-template-columns: minmax(30px, 340px) minmax(30px, 356px);
+    grid-template-columns: minmax(30px, 340px) minmax(30px, 352px);
     grid-gap: 44px 28px;
     margin-bottom: 71px;
   }
   /* уменьшаем ширину первого заголовка на 768 px, подгоняем под макет дизайнера */
-  .place:first-child .place__title{
-    max-width: 250px;
+  .place:first-child .place__title {
+    max-width: 260px;
   }
 }
 
-@media only screen and (max-width: 320px){
-  .place{
-    max-width: 320px;
+@media only screen and (max-width: 760px) {
+  .place {
+    max-width: 460px;
+    min-width: 320px;
     padding: 0;
     display: flex;
     flex-direction: column;
-    margin-bottom: 52px;
+    margin: 0 auto 52px;
   }
-  .place:first-child .place__title{
+  .place:first-child .place__title {
     max-width: 320px;
   }
 }

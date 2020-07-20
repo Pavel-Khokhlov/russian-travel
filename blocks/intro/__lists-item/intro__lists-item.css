@@ -1,4 +1,4 @@
-.intro__lists-item{
+.intro__lists-item {
   display: flex;
   justify-content: flex-start;
 }
@@ -13,4 +13,3 @@
     padding-left: 16px;
   }
 }
-

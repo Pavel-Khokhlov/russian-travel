@@ -2,8 +2,6 @@
 @import url(_font/intro__list_font_regular.css);
 
 .intro__list{
-  font-family: 'Inter';
-  font-style: normal;
   max-width: 690px;
   font-size: 12px;
   line-height: 18px;

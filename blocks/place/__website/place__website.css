@@ -1,7 +1,4 @@
-@import url(__url/website__url-heading.css);
-@import url(__link/website__link.css);
-
-.place__website{
+.place__website {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -10,8 +7,8 @@
   padding: 0;
 }
 
-@media only screen and (max-width: 420px){
-  .place__website{
+@media only screen and (max-width: 760px) {
+  .place__website {
     display: none;
   }
 }

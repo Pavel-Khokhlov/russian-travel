@@ -12,6 +12,6 @@
 
 @media only screen and (max-width: 320px){
   .places{
-    margin: 0 auto 66px;
+    margin-bottom: 66px;
   }
 }

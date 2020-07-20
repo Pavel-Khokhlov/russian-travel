@@ -1,5 +1,4 @@
-.website__link{
-  font-family: 'Inter';
+.place__link {
   font-size: 18px;
   font-weight: normal;
   line-height: 22px;
@@ -8,18 +7,18 @@
   margin-bottom: 6px;
 }
 
-.website__link:hover{
+.place__link:hover {
   opacity: 0.8;
 }
 
 @media only screen and (max-width: 1024px) {
-  .website__link{
+  .place__link {
     margin-bottom: 5px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .website__link{
+  .place__link {
     margin-bottom: 2px;
   }
 }
