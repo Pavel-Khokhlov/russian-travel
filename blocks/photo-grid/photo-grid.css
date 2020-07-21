@@ -18,7 +18,7 @@
   }
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 768px) {
   .photo-grid {
     padding: 0 24px;
     grid-template-columns: repeat(2, calc((100% - 16px) / 2));
@@ -27,7 +27,7 @@
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 460px) {
   .photo-grid {
     max-width: 384px;
     padding: 0 16px;
