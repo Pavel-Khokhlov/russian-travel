@@ -10,15 +10,3 @@
 .place__link:hover {
   opacity: 0.8;
 }
-
-@media only screen and (max-width: 1024px) {
-  .place__link {
-    margin-bottom: 5px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .place__link {
-    margin-bottom: 2px;
-  }
-}

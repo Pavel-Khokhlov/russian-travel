@@ -5,12 +5,19 @@
 
 @media only screen and (max-width: 1024px) {
   .places {
-    max-width: 100%;
+    max-width: 90%;
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 768px) {
   .places {
+    max-width: 94%;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .places {
+    max-width: 100%;
     margin-bottom: 66px;
   }
 }

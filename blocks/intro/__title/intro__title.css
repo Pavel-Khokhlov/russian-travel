@@ -7,25 +7,10 @@
   padding: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 760px) {
   .intro__title {
-    padding: 0 24px;
-  }
-}
-
-@media only screen and (max-width: 720px) {
-  .intro__title {
-    font-size: 10vw;
+    font-size: 32px;
     line-height: 1.1;
     max-width: 100%;
-    margin: 0 0 33px;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .intro__title {
-    max-width: 70%;
-    padding: 0 16px;
-    margin: 0 0 35px;
   }
 }

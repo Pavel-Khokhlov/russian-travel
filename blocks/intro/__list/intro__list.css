@@ -1,15 +1,9 @@
 @import url(_font/intro__list_font_bold.css);
 @import url(_font/intro__list_font_regular.css);
 
-.intro__list{
+.intro__list {
   max-width: 690px;
   font-size: 12px;
   line-height: 18px;
   margin: 0;
-}
-
-@media only screen and (max-width: 768px) {
-  .intro__list {
-    max-width: 100%;
-  }
 }

@@ -6,9 +6,3 @@
   color: #aaa;
   margin: 0 0 6px;
 }
-
-@media only screen and (max-width: 768px) {
-  .place__url-heading {
-    margin-bottom: 7px;
-  }
-}

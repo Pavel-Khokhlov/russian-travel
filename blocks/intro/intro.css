@@ -5,23 +5,20 @@
 @import url(__lists-item/intro__lists-item.css);
 
 .intro {
-  max-width: 984px;
+  max-width: 100%;
+  padding: 0 48px;
   margin: 0 auto 92px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   .intro {
-    margin: 0 48px 93px;
+    max-width: 100%;
+    padding: 0 24px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .intro {
-    margin: 0 0 89px;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .intro {
+    padding: 0 16px;
     margin-bottom: 65px;
   }
 }

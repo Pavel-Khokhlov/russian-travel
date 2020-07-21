@@ -1,4 +1,4 @@
-.cover__subtitle{
+.cover__subtitle {
   font-size: 18px;
   font-weight: normal;
   line-height: 22px;
@@ -7,15 +7,7 @@
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 768px) {
-  .cover__subtitle {
-    max-width: 360px;
-    font-size: 18px;
-    line-height: 22px;
-  }
-}
-
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 720px) {
   .cover__subtitle {
     max-width: 277px;
     font-size: 14px;

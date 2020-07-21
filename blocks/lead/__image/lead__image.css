@@ -1,9 +1,9 @@
-.lead__image{
+.lead__image {
   width: 100%;
   margin-bottom: 8px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .lead__image {
     margin-bottom: 7px;
   }

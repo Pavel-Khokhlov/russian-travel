@@ -13,26 +13,27 @@
 
 @media only screen and (max-width: 1024px) {
   .photo-grid {
-    margin: 0 auto 98px;
     grid-template-columns: repeat(3, calc((100% - 28px) / 3));
     grid-gap: 14px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1023px) {
   .photo-grid {
     padding: 0 24px;
     grid-template-columns: repeat(2, calc((100% - 16px) / 2));
     grid-gap: 16px;
-    margin: 0 auto 91px;
+    margin-bottom: 91px;
   }
 }
 
-@media only screen and (max-width: 384px) {
+@media only screen and (max-width: 767px) {
   .photo-grid {
+    max-width: 384px;
     padding: 0 16px;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     grid-row-gap: 12px;
-    margin: 0 0 66px;
+    margin: 0 auto;
+    margin-bottom: 66px;
   }
 }

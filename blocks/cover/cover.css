@@ -3,27 +3,26 @@
 @import url(__title/cover__title.css);
 @import url(__subtitle/cover__subtitle.css);
 
-.cover{
+.cover {
   max-width: 1184px;
   max-height: 740px;
   margin: 0 auto 92px;
-  position: relative;
 }
 
-@media only screen and (max-width: 1024px){
-  .cover{
+@media only screen and (max-width: 1024px) {
+  .cover {
     margin: 0 auto 88px;
   }
 }
 
-@media only screen and (max-width: 768px){
-  .cover{
+@media only screen and (max-width: 768px) {
+  .cover {
     margin: 0 auto 81px;
   }
 }
 
-@media only screen and (max-width: 320px){
-  .cover{
+@media only screen and (max-width: 320px) {
+  .cover {
     margin: 0 auto 63px;
   }
 }

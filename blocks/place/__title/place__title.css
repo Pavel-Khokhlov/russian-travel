@@ -6,7 +6,7 @@
   margin: 0;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1020px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
@@ -17,7 +17,7 @@
   .place__title {
     font-size: 32px;
     line-height: 35px;
-    margin: 0 0 30px;
+    margin-bottom: 30px;
     padding-left: 16px;
   }
 }
