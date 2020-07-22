@@ -17,7 +17,7 @@
   margin-bottom: 0;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1279px) {
   .place {
     grid-template-columns: minmax(310px, 440px) minmax(330px, 456px);
     grid-gap: 43px 32px;
@@ -25,10 +25,11 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1023px) {
   .place {
     grid-template-columns: minmax(30px, 340px) minmax(30px, 352px);
     grid-gap: 44px 28px;
+    /* совпадает с макетом, добавил неразрывный пробел в текст*/
     margin-bottom: 71px;
   }
   /* уменьшаем ширину первого заголовка на 768 px, подгоняем под макет дизайнера */
@@ -37,7 +38,7 @@
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 767px) {
   .place {
     max-width: 460px;
     min-width: 320px;

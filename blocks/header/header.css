@@ -1,15 +1,21 @@
 @import url(__lang/header__lang.css);
 @import url(__link/header__link.css);
-@import url(../header/__link/_active/header__link_active_underline.css);
+/* исправил путь */
+@import url(__link/_active/header__link_active_underline.css);
 
 .header {
   max-width: 1184px;
   min-width: 288px;
-  margin: 0 48px 56px;
+  margin: 0 48px 62px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   box-sizing: border-box;
+}
+@media only screen and (max-width: 1024px) {
+  .header {
+    margin: 0 48px 57px;
+  }
 }
 
 @media only screen and (max-width: 768px) {

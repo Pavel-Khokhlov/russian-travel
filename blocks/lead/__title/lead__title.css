@@ -1,6 +1,6 @@
 .lead__title {
-  font-family: "Inter";
-  font-style: normal;
+  /*font-family: "Inter";
+  font-style: normal; загрузка шрифта идет со страницы */
   font-size: 96px;
   font-weight: 900;
   line-height: 100px;

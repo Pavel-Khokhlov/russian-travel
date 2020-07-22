@@ -8,7 +8,8 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: url(../../../images/cover__background.svg);
+  /* исправил формат картинки */
+  background-image: url(../../../images/cover.jpg);
   background-size: cover;
   position: relative;
   margin: 0 auto;

@@ -1,28 +1,29 @@
 @import url(__links/footer__links.css);
+@import url(__li/footer__li.css);
 @import url(__link/footer__link.css);
 @import url(__copyright/footer__copyright.css);
 
 .footer {
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
-  align-items: flex-end;
-  max-width: 95%;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 984px;
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
   .footer {
-    padding: 0 24px;
+    max-width: 928px;
+    padding: 0 48px;
   }
 }
 
 @media only screen and (max-width: 760px) {
   .footer {
     padding: 0 5vw;
-    min-height: 310px;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+    /* убрал лишние свойства, высоту 310 оставил (она мне нужна чтоб сохранить растояние до copyright */
+    height: 310px;
   }
 }
