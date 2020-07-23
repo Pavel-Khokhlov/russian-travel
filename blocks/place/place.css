@@ -44,6 +44,7 @@
     min-width: 320px;
     display: flex;
     flex-direction: column;
+    grid-gap: 0;
     margin: 0 auto 52px;
   }
   .place:first-child .place__title {

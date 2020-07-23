@@ -8,22 +8,28 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  max-width: 984px;
+  max-width: 1184px;
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1279px) {
   .footer {
-    max-width: 928px;
+    max-width: 100%;
+    margin: 0;
     padding: 0 48px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .footer {
+    max-width: 100%;
+    padding: 0 24px;
   }
 }
 
 @media only screen and (max-width: 760px) {
   .footer {
-    padding: 0 5vw;
-    flex-direction: column;
-    /* убрал лишние свойства, высоту 310 оставил (она мне нужна чтоб сохранить растояние до copyright */
-    height: 310px;
+    display: block;
+    padding: 0 16px;
   }
 }
