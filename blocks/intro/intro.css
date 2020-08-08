@@ -17,6 +17,7 @@
 }
 @media only screen and (max-width: 768px) {
   .intro {
+    margin-bottom: 90px;
     padding: 0 24px;
   }
 }
