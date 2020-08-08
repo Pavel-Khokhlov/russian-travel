@@ -20,9 +20,9 @@
   }
 }
 
+/*удалил повторяющийся стиль*/
 @media only screen and (max-width: 1023px) {
   .footer {
-    max-width: 100%;
     padding: 0 24px;
   }
 }
