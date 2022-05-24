@@ -2,7 +2,7 @@
   font-size: max(32px, min(9.4vw, 72px));
   font-weight: 900;
   line-height: max(35px, min(9.9vw, 76px));
-  max-width: 540px;
+  width: min(540px, 70vw);
   text-align: center;
   margin: 0 auto 32px;
 }

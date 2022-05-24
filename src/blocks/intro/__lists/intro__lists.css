@@ -2,3 +2,9 @@
   list-style: none;
   padding: 0;
 }
+
+.intro__lists li {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}

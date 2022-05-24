@@ -6,4 +6,20 @@
   margin: 0 auto;
   text-align: center;
   margin-bottom: max(15px, min(3.125vw, 24px));
+  background: #c04848; /* fallback for old browsers */
+  background: #003973; /* fallback for old browsers */
+  background: #00467f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a5cc82,
+    #00467f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a5cc82,
+    #00467f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2);
 }

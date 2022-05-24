@@ -1,5 +1,5 @@
 import { language } from "../utils/data";
-import { brandLogo, copyRight, coverTitle, footerLinks, html, leadCapture, leadSubtitle, leadTitle, title } from "../utils/config";
+import { brandLogo, copyRight, coverTitle, footerLinks, html, introLists, introTitle, leadCapture, leadSubtitle, leadTitle, title } from "../utils/config";
 
 // Fn to define real current path to obj data
 function getByPath(obj, path) {
@@ -22,9 +22,13 @@ export function renderPage() {
   leadTitle.innerHTML = currentPath.title;
   leadSubtitle.innerHTML = currentPath.leadSubtitle;
   leadCapture.innerHTML = currentPath.leadCapture;
+  introTitle.innerHTML = currentPath.introTitle;
+  introLists.forEach((list, i) => {
+    list.innerHTML = currentPath.introLists[i]
+  });
   coverTitle.innerHTML = currentPath.coverTitle;
   footerLinks.forEach((link, i) => {
     link.innerHTML = currentPath.links[i]
-  })
+  });
   copyRight.innerHTML = currentPath.copyRight;
 }

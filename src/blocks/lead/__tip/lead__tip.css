@@ -1,0 +1,8 @@
+.lead__tip {
+  position: absolute;
+  top: min(70px, 9vw);
+  left: 0;
+  width: 100%;
+  padding: 0 min(23px, 3.43vw);
+  box-sizing: border-box;
+}

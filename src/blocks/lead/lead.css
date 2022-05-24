@@ -3,6 +3,7 @@
 @import url(__figure/lead__figure.css);
 @import url(__image/lead__image.css);
 @import url(__capture/lead__capture.css);
+@import url(__tip/lead__tip.css);
 
 .lead {
   max-width: 984px;
