@@ -1,0 +1,6 @@
+.header__line {
+  content: "";
+  width: 1px;
+  height: 25px;
+  background-color: white;
+}
