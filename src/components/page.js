@@ -1,5 +1,5 @@
-import { language } from "../utils/data";
-import { brandLogo, copyRight, coverTitle, footerLinks, html, introLists, introTitle, leadCapture, leadSubtitle, leadTitle, title } from "../utils/config";
+import { coverImage, language } from "../utils/data";
+import { brandLogo, copyRight, coverLink, coverSubtitle, coverTitle, footerLinks, html, introLists, introTitle, leadCapture, leadSubtitle, leadTitle, title } from "../utils/config";
 
 // Fn to define real current path to obj data
 function getByPath(obj, path) {
@@ -11,6 +11,14 @@ function getByPath(obj, path) {
       break;
   }
   return current;
+}
+
+// Fn to get random index of array
+function getRandomIndex(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  //The maximum is inclusive and the minimum is inclusive
+  return Math.floor(Math.random() * (max - min ) + min);
 }
 
 export function renderPage() {
@@ -27,6 +35,8 @@ export function renderPage() {
     list.innerHTML = currentPath.introLists[i]
   });
   coverTitle.innerHTML = currentPath.coverTitle;
+  coverSubtitle.innerHTML = currentPath.coverSubtitle;
+  coverLink.style.backgroundImage = `url(${coverImage[getRandomIndex(0, coverImage.length)]})`;
   footerLinks.forEach((link, i) => {
     link.innerHTML = currentPath.links[i]
   });

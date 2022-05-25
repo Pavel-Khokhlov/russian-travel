@@ -14,5 +14,9 @@ export const leadCapture = document.querySelector(".lead__capture");
 export const introTitle = document.querySelector(".intro__title");
 export const introLists = document.querySelectorAll(".intro__list");
 export const coverTitle = document.querySelector(".cover__title");
+export const coverSubtitle = document.querySelector(".cover__subtitle");
+export const coverLink = document.querySelector(".cover__link");
 export const footerLinks = document.querySelectorAll(".footer__link");
 export const copyRight = document.querySelector(".footer__copyright");
+
+export const scrollingElt = document.querySelector('.scrolling');

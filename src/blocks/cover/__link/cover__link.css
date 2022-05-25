@@ -8,11 +8,12 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: url(../../../images/cover.jpg);
+  background-image: url(../../../images/cover_one.jpg);
   background-size: cover;
   position: relative;
   margin: 0 auto;
   z-index: 1;
+  transition: all 0.8s ease;
 }
 
 .cover__link::after {
