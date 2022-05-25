@@ -1,5 +1,5 @@
 import { coverImage, language } from "../utils/data";
-import { brandLogo, copyRight, coverLink, coverSubtitle, coverTitle, footerLinks, html, introLists, introTitle, leadCapture, leadSubtitle, leadTitle, title } from "../utils/config";
+import { brandLogo, cityTrip, copyRight, coverLink, coverSubtitle, coverTitle, footerLinks, html, introLists, introTitle, leadCapture, leadSubtitle, leadTitle, title } from "../utils/config";
 
 // Fn to define real current path to obj data
 function getByPath(obj, path) {
@@ -30,6 +30,8 @@ export function renderPage() {
   leadTitle.innerHTML = currentPath.title;
   leadSubtitle.innerHTML = currentPath.leadSubtitle;
   leadCapture.innerHTML = currentPath.leadCapture;
+  cityTrip.src = currentPath.city.link;
+  cityTrip.alt = currentPath.city.alt;
   introTitle.innerHTML = currentPath.introTitle;
   introLists.forEach((list, i) => {
     list.innerHTML = currentPath.introLists[i]

@@ -8,6 +8,7 @@ export const pageEng = document.querySelectorAll(".page_eng");
 
 export const brandLogo = document.querySelector(".logo");
 export const title = document.querySelector("title");
+export const cityTrip = document.querySelector(".lead__tip");
 export const leadTitle = document.querySelector(".lead__title");
 export const leadSubtitle = document.querySelector(".lead__subtitle");
 export const leadCapture = document.querySelector(".lead__capture");
