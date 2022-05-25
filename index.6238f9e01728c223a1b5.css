@@ -402,6 +402,27 @@ body {
   }
 }
 
+.scrolling {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  border-radius: 2px;
+  background: -webkit-linear-gradient(
+    90deg,
+    #a8ffee,
+    #d6f5ef,
+    #ffffff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    90deg,
+    #a8ffee,
+    #d6f5ef,
+    #ffffff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .button__lang {
   color: white;
   font-size: 20px;
@@ -904,11 +925,12 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: url(images/cover.b8caa322b5e2fb24ecb5.jpg);
+  background-image: url(images/cover_one.b8caa322b5e2fb24ecb5.jpg);
   background-size: cover;
   position: relative;
   margin: 0 auto;
   z-index: 1;
+  transition: all 0.8s ease;
 }
 
 .cover__link::after {
