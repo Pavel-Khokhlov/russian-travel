@@ -1,6 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const webpack = require('webpack');
+const miniCss = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 let mode = "development";
@@ -21,32 +22,28 @@ module.exports = {
     filename: '[name].[hash].js',
     assetModuleFilename: './images/[name].[hash][ext]',
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      filename: 'index.html',
-      template: './src/index.html',
-      // подключение нужных css & js к странице
-      chunks: ['index'],
-      // загрузка script в конец body
-      inject: 'body',
-      // отключаем script defer
-      scriptLoading: 'blocking',
-    }),
-    new MiniCssExtractPlugin({
-      filename: '[name].[hash].css',
-    }),
-    new CleanWebpackPlugin(),
-  ],
+  devServer: {
+    port: 5000,
+    hot: true,
+    static: './dist'
+  },
   module: {
     rules: [
       {
-        test: /\.html$/i,
-        use: ["html-loader"],
+        test: /\.m?js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
+            plugins: ['@babel/plugin-proposal-object-rest-spread'],
+          },
+        },
       },
       {
         test: /\.(sass|scss|css)$/,
         use: [
-          mode === "development" ? 'style-loader' : MiniCssExtractPlugin.loader,
+          mode === "development" ? 'style-loader' : miniCss.loader,
           'css-loader',
           {
             loader: 'postcss-loader',
@@ -73,16 +70,25 @@ module.exports = {
         type: 'asset/resource',
       },
       {
-        test: /\.m?js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env'],
-            plugins: ['@babel/plugin-proposal-object-rest-spread'],
-          },
-        },
+        test: /\.html$/i,
+        use: ["html-loader"],
       },
     ],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      template: './src/index.html',
+      // подключение нужных css & js к странице
+      chunks: ['index'],
+      // загрузка script в конец body
+      inject: 'body',
+      // отключаем script defer
+      scriptLoading: 'blocking',
+    }),
+    new miniCss({
+      filename: '[name].[hash].css',
+    }),
+    new CleanWebpackPlugin(),
+  ],
 };

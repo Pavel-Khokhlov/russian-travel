@@ -22,3 +22,4 @@ renderPage();
 btnRus.addEventListener("click", handleChangeRus);
 btnEng.addEventListener("click", handleChangeEng);
 window.addEventListener('scroll', getScrollPosition);
+getScrollPosition();
