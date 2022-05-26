@@ -350,32 +350,29 @@ template {
 
 @font-face {
   font-family: "Inter";
-  src: url(images/Inter-Regular.d8cf49e7083bbe30216b.eot);
-  src: local("☺"), url(images/Inter-Regular.dd8a0a48d3af6fff0fd2.woff) format("woff"),
-    url(images/Inter-Regular.4596b2457fc366dd1a15.ttf) format("truetype"),
-    url(images/Inter-Regular.61a1d143542493786093.svg) format("svg");
+  font-style: normal;
   font-weight: normal;
-  font-style: normal;
+  font-display: swap;
+  src: local(""), url(images/Inter-Regular.2505c0d4b34ffca98f8f.woff2) format("woff2"),
+    url(images/Inter-Regular.dd8a0a48d3af6fff0fd2.woff) format("woff");
 }
 
 @font-face {
   font-family: "Inter";
-  src: url(images/Inter-Black.2ff7f72303ba6b6eb7e4.eot);
-  src: local("☺"), url(images/Inter-Black.b42c834d4776581f724c.woff) format("woff"),
-    url(images/Inter-Black.87eaf799b2ece1d52dfe.ttf) format("truetype"),
-    url(images/Inter-Black.b1e9f316a858191e82d8.svg) format("svg");
-  font-weight: 900;
   font-style: normal;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url(images/Inter-Bold.c847ffc3e6180f4f53e3.eot);
-  src: local("☺"), url(images/Inter-Bold.4a4f37d383eb5bd826db.woff) format("woff"),
-    url(images/Inter-Bold.bb7c46220d43134808b7.ttf) format("truetype"),
-    url(images/Inter-Bold.1ee0556bf42ba21ab793.svg) format("svg");
   font-weight: bold;
+  font-display: swap;
+  src: local(""), url(images/Inter-Bold.3c747ac4004be3a30e98.woff2) format("woff2"),
+    url(images/Inter-Bold.4a4f37d383eb5bd826db.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
   font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local(""), url(images/Inter-Black.23eb804eb49e365fa2f1.woff2) format("woff2"),
+    url(images/Inter-Black.b42c834d4776581f724c.woff) format("woff");
 }
 
 /*div, section, h1, h2, h3, p, img, a, header, footer, ul {
@@ -407,7 +404,7 @@ body {
   top: 0;
   left: 0;
   z-index: 10;
-  width: 0%;
+  width: 0vw;
   height: 3px;
   border-radius: 2px;
   background: -webkit-linear-gradient(
